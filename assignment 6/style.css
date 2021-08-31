@@ -1,0 +1,57 @@
+*{
+    margin: 20px;
+}
+body {
+    font-family: fantasy;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    color: white;
+}
+input{
+    margin-top: 15px;
+    width: 40vw;
+    height: 4.6vh;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+span {
+    color:#3f87a6;
+    font-weight: 100px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:50px;
+    width: 700px;
+    list-style: none;
+    background-color: black;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+.todo-input {
+    text-align: left;
+    background-color: transparent;
+    color:white;
+    width: 100px;
+}
+li {
+    padding-right:16px;
+    background-color: #f69d3c;
+    border-radius: 10px;
+}
+ li button{
+     margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    float: right;
+    border-radius: 10px;
+}
+.not-disabled {
+    background-color: white;
+    color:black;
+}
